@@ -1,0 +1,43 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Composer
+vendor/
+
+# Environment
+.env
+
+# WordPress Core
+wp-admin/
+wp-includes/
+
+# Uploads
+wp-content/uploads/
+
+# Cache
+wp-content/cache/
+wp-content/wflogs/
+
+# Plugins (optional)
+# Ignore all plugins except custom ones
+wp-content/plugins/*
+
+# Keep custom plugin
+!wp-content/plugins/my-custom-plugin/
+
+# Themes
+wp-content/themes/*
+
+# Keep your custom theme
+!wp-content/themes/my-custom-theme/
+
+# Build files
+dist/
+build/
